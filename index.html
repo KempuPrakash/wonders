@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Wonders of the World</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-blue-800 mb-4 rounded-lg p-4 bg-gradient-to-r from-blue-100 to-indigo-100 shadow-lg">
+                The New Seven Wonders of the World
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                Explore the magnificent architectural and natural marvels that captivate the human spirit.
+            </p>
+        </header>
+
+        <!-- Wonders Grid Section -->
+        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Great Wall of China -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Great+Wall+of+China" alt="Great Wall of China" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Great Wall of China</h2>
+                    <p class="text-gray-700 mb-4 text-sm">A series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China.</p>
+                    <a href="view.html?wonder=great-wall" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Petra -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Petra" alt="Petra" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Petra</h2>
+                    <p class="text-gray-700 mb-4 text-sm">An ancient city in Jordan, famous for its rock-cut architecture and water conduit system. Established possibly as early as 312 BC as the capital city of the Nabataeans.</p>
+                    <a href="view.html?wonder=petra" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Colosseum -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Colosseum" alt="Colosseum" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Colosseum</h2>
+                    <p class="text-gray-700 mb-4 text-sm">An oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine limestone, tuff, and brick-faced concrete, it was the largest amphitheatre ever built.</p>
+                    <a href="view.html?wonder=colosseum" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Chichen Itza -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Chichen+Itza" alt="Chichen Itza" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Chichen Itza</h2>
+                    <p class="text-gray-700 mb-4 text-sm">A large pre-Columbian city built by the Maya people of the Terminal Classic period. The archaeological site is located in Tinúm Municipality, Yucatán State, Mexico.</p>
+                    <a href="view.html?wonder=chichen-itza" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Machu Picchu -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Machu+Picchu" alt="Machu Picchu" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Machu Picchu</h2>
+                    <p class="text-gray-700 mb-4 text-sm">A 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a 2,430-meter (7,970 ft) mountain ridge.</p>
+                    <a href="view.html?wonder=machu-picchu" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Taj Mahal -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Taj+Mahal" alt="Taj Mahal" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Taj Mahal</h2>
+                    <p class="text-gray-700 mb-4 text-sm">An ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1632 by the Mughal emperor Shah Jahan.</p>
+                    <a href="view.html?wonder=taj-mahal" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+
+            <!-- Christ the Redeemer -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img src="https://placehold.co/600x400/9ca3af/ffffff?text=Christ+the+Redeemer" alt="Christ the Redeemer" class="w-full h-48 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-2">Christ the Redeemer</h2>
+                    <p class="text-gray-700 mb-4 text-sm">An Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa.</p>
+                    <a href="view.html?wonder=christ-redeemer" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300 shadow-md">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>&copy; 2025 Seven Wonders Explorer. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
